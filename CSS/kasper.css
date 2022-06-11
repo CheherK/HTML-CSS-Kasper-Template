@@ -975,6 +975,7 @@ header .container li:not(li:first-of-type):hover::after {
 .contact .container {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-evenly;
 }
 @media (max-width: 768px) {
     .contact .container {
