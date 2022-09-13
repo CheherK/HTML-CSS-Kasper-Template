@@ -419,7 +419,7 @@ header .container li:not(li:first-of-type):hover::after {
     background-color: var(--main-color);
     color: white;
 }
-.portfolio ul li:not(first-of-type):hover {
+.portfolio ul .active {
     background-color: var(--main-color);
     color: white;
 }
